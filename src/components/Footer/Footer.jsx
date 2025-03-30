@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Footer.css";
-import { logo_black } from '../../assets';
 
 const Footer = () => {
   return (
@@ -28,12 +27,20 @@ const Footer = () => {
               <div className='poppins text-[13px] leading-4 hidden md:block'>Innovate to Elivate...</div>
             </div>
             <div className="footer__contact poppins text-[13px] leading-4 font-medium flex flex-col gap-1 text-center md:text-right">
-              <ul className='flex flex-col gap-1'>
-                <li>
-                  <Link to="#" className="a-link">+91 9994255076</Link>
-                </li>
-                <li>T. John Institute of Technology</li>
-              </ul>
+            <div className="footer__contact poppins text-[13px] leading-4 font-medium flex flex-col gap-1 text-center md:text-right">
+  <ul className='flex flex-col gap-1'>
+    <li>
+      <Link to="#" className="a-link">Mrs. Kumudha: +91 9994255076</Link>
+    </li>
+    <li>
+      <Link to="#" className="a-link">Anuroopa Shankar: +91 8904973663</Link>
+    </li>
+    <li>
+      <Link to="#" className="a-link">Yuvraj K: +91 7411035095</Link> 
+    </li>
+  </ul>
+</div>
+
             </div>
           </div>
         </div>

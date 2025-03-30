@@ -121,3 +121,23 @@ export const ApoorvTeam = [
     //     image: "/assets/apoorvTeamImages/rakshit.jpg",
     // },
 ]
+
+const timelineArray = [
+    { time: "Sabhangana (Ground Floor)", event: "DEBATE" },
+    { time: "Room 324 (3rd Floor)", event: "SUDOKU" },
+    { time: "Room 304 (3rd Floor)", event: "GAMING (BGMI)" },
+    { time: "CS LAB-1 (3rd Floor)", event: "CODING" },
+    { time: "(3rd Floor)", event: "TREASURE HUNT" },
+    { time: "Room 322 (3rd Floor)", event: "LOGO DESIGN" },
+    { time: "(3rd Floor)", event: "VIDEOGRAPHY" },
+    { time: "Room 325 (3rd Floor)", event: "Electronic PPT" },
+    { time: "Room 307 (3rd Floor)", event: "RUBIK'S CUBE" },
+    { time: "Sabhangana (Ground Floor)", event: "IT QUIZ" },
+    { time: "Room 321 (3rd Floor)", event: "MATHS PPT" },
+    { time: "1:00 PM", event: "LUNCH" },
+    { time: "Electronics Lab (4th Floor)", event: "Electronic Circuit Analysis" },
+    { time: "AUDITORIUM", event: "Fashion Walk" },
+  ];
+  
+  export default timelineArray;
+  

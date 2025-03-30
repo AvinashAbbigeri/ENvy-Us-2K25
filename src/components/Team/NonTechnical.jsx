@@ -1,28 +1,32 @@
-import React from 'react'
-import "./Team.css";
-import { ApoorvTeam } from '../../data/data';
+import React from "react";
+import "./Team.css"; // Import CSS for styling
+import timelineArray from '../../data/data'; // Import timeline data
 
-const NonTechnical = () => {
-    return (
-        <div className='relative flex flex-col text-center gap-[50px] pt-[100px]'>
-            <div className='header'>
-                <h1>Our Team</h1>
-            </div>
-            <div className="hidden xl:block absolute top-8 left-[15vw] w-[25vw]">
-                <img src="/assets/images/tech.png" alt="" />
-            </div>
-            <div class="container">
-                {ApoorvTeam?.map((item, i) => (
-                    <div key={i} class="profilecard cardi" style={{ backgroundImage: `url(${item.image})` }}>
-                        <div class="border">
-                            <h2 className='card-title'>{item.name}</h2>
-                        </div>
-                    </div>
-                ))}
+const EventTimeline = () => {
+  return (
+    <section className="main">
+      <div className="content">
+        <h1>
+          <b>
+            <u>Events Venue List</u>
+          </b>
+        </h1>
+        <br />
+        <ul className="timeline">
+          {timelineArray.map((event, index) => (
+            <li key={index} className={index % 2 === 0 ? "left" : "right"}>
+              <div className={`dot ${index % 2 === 0 ? "left" : "right"}`}>
+                <div className="card">
+                  <h3>{event.time}</h3>
+                  <p>{event.event}</p>
+                </div>  
+              </div>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  );
+};
 
-            </div>
-        </div>
-    )
-}
-
-export default NonTechnical;
+export default EventTimeline;
