@@ -9,31 +9,21 @@ import Sponsor from './pages/Sponsor';
 import Layout from './layout/Layout';
 import Developer from './pages/Developer';
 
-// const App = () => {
-//   return (
-//     <Fragment>
-//       <Layout>
-//         <Routes>
-//           <Route exact path='/' element={<Home />} />
-//           <Route exact path='/events' element={<Events />} />
-//           <Route exact path='/events/:category/:id' element={<Event />} />
-//           <Route exact path='/team' element={<Team />} />
-//           <Route exact path='/developers' element={<Developer />} />
-//           <Route exact path='/sponsor' element={<Sponsor />} />
-//         </Routes>
-//       </Layout>
-//     </Fragment>
-//   );
-// }
-
 const App = () => {
   return (
-  <div>
-      <h1>WORK IN PROGRESS</h1>
-      <h1>WE WILL BE BACK UP SOON</h1>
-  </div>
+    <Fragment>
+      <Layout>
+        <Routes>
+          <Route exact path='/' element={<Home />} />
+          <Route exact path='/events' element={<Events />} />
+          <Route exact path='/events/:category/:id' element={<Event />} />
+          <Route exact path='/team' element={<Team />} />
+          <Route exact path='/developers' element={<Developer />} />
+          <Route exact path='/sponsor' element={<Sponsor />} />
+        </Routes>
+      </Layout>
+    </Fragment>
   );
 }
-
 
 export default App;
