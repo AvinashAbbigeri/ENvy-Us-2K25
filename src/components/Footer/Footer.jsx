@@ -30,13 +30,13 @@ const Footer = () => {
             <div className="footer__contact poppins text-[13px] leading-4 font-medium flex flex-col gap-1 text-center md:text-right">
   <ul className='flex flex-col gap-1'>
     <li>
-      <Link to="#" className="a-link">Mrs. Kumudha: +91 9994255076</Link>
+      <Link to="#" className="a-link">Mrs. Kumudha M: +91 9994255076</Link>
     </li>
     <li>
       <Link to="#" className="a-link">Anuroopa Shankar: +91 8904973663</Link>
     </li>
     <li>
-      <Link to="#" className="a-link">Yuvraj K: +91 7411035095</Link> 
+      <Link to="#" className="a-link">Yuvaraj K: +91 7411035095</Link> 
     </li>
   </ul>
 </div>

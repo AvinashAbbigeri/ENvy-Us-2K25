@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import NonTechnical from "../components/Team/Technical";  
+import NonTechnical from "../components/Team/NonTechnical";  
 
 const Team = () => {
   useEffect(() => {

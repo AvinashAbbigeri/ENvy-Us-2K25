@@ -19,8 +19,7 @@ const Technical = () => {
                         <div class="border">
                             <h2 className='card-title'>{item.name}</h2>
                             <div class="icons">
-                                <Link to={item.instagram}><i class="fa" aria-hidden="true"><Icon icon="teenyicons:instagram-outline" /></i></Link>
-                                <Link to={item.linkedin}><i class="fa" aria-hidden="true"><Icon icon="bi:linkedin" /></i></Link>
+                                <Link to="https://www.instagram.com/envyus_tjit/"><i class="fa" aria-hidden="true"><Icon icon="teenyicons:instagram-outline" /></i></Link>
                             </div>
                         </div>
                     </div>

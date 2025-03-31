@@ -74,10 +74,7 @@ function Header() {
                 <h3 className="social-title">Follow Us</h3>
                 <ul>
                   <li>
-                    <Link to="" className="a-link">Instagram</Link>
-                  </li>
-                  <li>
-                    <Link to="" className="a-link">LinkedIn</Link>
+                    <Link to="https://www.instagram.com/envyus_tjit/" className="a-link">Instagram</Link>
                   </li>
                 </ul>
               </div>
@@ -171,6 +168,7 @@ function Header() {
                   <li>
                     <Link to="#" className="a-link">+91 9994255076</Link>
                   </li>
+                  <li>Mrs. Kumudha M</li>
                   <li>T. John Institute of Technology</li>
                 </ul>
               </div>
