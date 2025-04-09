@@ -5,28 +5,43 @@ import { Icon } from '@iconify/react';
 import { TechnicalTeam } from '../../data/data';
 
 const NonTechnical = () => {
+    const venueData = [
+      { event: "Code Sprint", room: "Room 214" },
+      { event: "Visual Upgrade", room: "Room 214" },
+      { event: "Clash of Minds", room: "Room 319" },
+      { event: "Brainstorm", room: "Room 319" },
+      { event: "Iconic IQ", room: "Room 323" },
+      { event: "The Future Foundry", room: "Room 323" },
+    ];
+  
     return (
-        <div className='relative flex flex-col text-center gap-5 mt-10'>
-            <div className='header p-10'>
-                <h1>Venue</h1>
-            </div>
-            <div className="hidden xl:block absolute top-0 left-[12vw] w-[20vw]">
-                <img src="/assets/images/nontech.png" alt="" />
-            </div>
-            <div class="container">
-                {TechnicalTeam?.map((item, i) => (
-                    <div key={i} class="profilecard cardi" style={{ backgroundImage: `url(${item.image})` }}>
-                        <div class="border">
-                            <h2 className='card-title'>{item.name}</h2>
-                            <div class="icons">
-                                <Link to="https://www.instagram.com/envyus_tjit/"><i class="fa" aria-hidden="true"><Icon icon="teenyicons:instagram-outline" /></i></Link>
-                            </div>
-                        </div>
-                    </div>
-                ))}
-            </div>
+      <div className='venue-container'>
+        <div className='venue-header'>
+          <h1>Venue</h1>
         </div>
-    )
-}
+        <h3>Group Events: 12:00 p.m. - 2:00 p.m.</h3>
+        <h3>Solo Events: 2:00 p.m. - 3:00 p.m.</h3>
+        <div className="venue-table-container">
+          <table className="venue-table">
+            <thead>
+              <tr>
+                <th>Event Name</th>
+                <th>Room Number</th>
+              </tr>
+            </thead>
+            <tbody>
+              {venueData.map((item, index) => (
+                <tr key={index}>
+                  <td>{item.event}</td>
+                  <td>{item.room}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    );
+  };
+  
 
 export default NonTechnical

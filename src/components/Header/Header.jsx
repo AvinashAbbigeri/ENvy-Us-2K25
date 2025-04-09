@@ -140,21 +140,6 @@ function Header() {
                         </Link>
                       </div>
                     </li>
-                    <li>
-                      <div className="header_title">
-                        <Link to="/developers" className="a-link" onClick={toggleOffcanvas}>
-                          <div className="menu-text">
-                            <span>G</span>
-                            <span>A</span>
-                            <span>L</span>
-                            <span>L</span>
-                            <span>E</span>
-                            <span>R</span>
-                            <span>Y</span>
-                          </div>
-                        </Link>
-                      </div>
-                    </li>
                   </ul>
                 </nav>
               </div>
