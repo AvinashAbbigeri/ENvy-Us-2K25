@@ -6,7 +6,7 @@ export const Cards = [
         rules: [
           "Only 1 laptop per team of 2 members. All mobile phones must be submitted before the event.",
           "Round 1 (Technical Quiz):",
-          "Teams answer timed MCQs online. Top 50% based on accuracy & submission time advance.",
+          "Teams answer timed MCQs online. Top 50% based on score & submission time advance.",
           "Round 2 (Crack the Output):",
           "Solve code-based output questions on paper. Fastest accurate answers move the top 5 teams forward.",
           "Round 3 (Frame the Code):",
