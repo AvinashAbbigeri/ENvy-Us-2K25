@@ -129,7 +129,7 @@ function Header() {
                     </li>
                     <li>
                       <div className="header_title">
-                        <Link to="/team" className="a-link" onClick={toggleOffcanvas}>
+                        <Link to="/venue" className="a-link" onClick={toggleOffcanvas}>
                           <div className="menu-text">
                             <span>V</span>
                             <span>E</span>

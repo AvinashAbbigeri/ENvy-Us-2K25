@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "./Team.css";
+import "./Venue.css";
 import { Icon } from '@iconify/react';
 import { TechnicalTeam } from '../../data/data';
 
-const NonTechnical = () => {
+const Venue = () => {
     const venueData = [
       { event: "Code Sprint", room: "Room 214" },
       { event: "Visual Upgrade", room: "Room 214" },
@@ -44,4 +44,4 @@ const NonTechnical = () => {
   };
   
 
-export default NonTechnical
+export default Venue
