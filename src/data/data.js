@@ -67,7 +67,11 @@ export const Cards = [
         ],
         coordinator: [
           { name: "Yuvaraj K", phone: "+91 7411035095" }
-        ]
+        ],
+        url: "https://docs.google.com/forms/d/1zZ1e1FGZHaDgVmbR17X9oC0LYFLXHPS0k4HOp8LKs5Y/edit",
+        image: "/assets/eventsImages/TechQuest.png",
+        color: "#7A4069",
+        category: "Technical"
       },      
     {
         event_name: "Future Foundary",

@@ -40,11 +40,15 @@ const Footer = () => {
     </li>
   </ul>
 </div>
-
+<div className="footer_bottom poppins text-[12px] text-center w-full pt-4 border-t border-gray-300 mt-6">
+  &copy; 2025 Envyus. All rights reserved. <br />
+  Managed by <span className="font-semibold">Avinash Abbigeri</span>
+</div>
             </div>
           </div>
         </div>
       </div>
+      
       <svg style={{ position: 'fixed', top: '100vh' }}>
         <defs>
           <filter id="blob">
@@ -58,6 +62,7 @@ const Footer = () => {
           </filter>
         </defs>
       </svg>
+      
     </>
   )
 }
