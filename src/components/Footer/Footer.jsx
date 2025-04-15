@@ -24,7 +24,7 @@ const Footer = () => {
           <div className="footer_content flex flex-col md:flex-row justify-between items-center gap-4">
             <div className='flex flex-col gap-2 w-full items-center md:items-start md:w-[300px]'>
               <h1>ENVYUS</h1>
-              <div className='poppins text-[13px] leading-4 hidden md:block'>Innovate to Elivate...</div>
+              <div className='poppins text-[13px] leading-4 hidden md:block'>Innovate to Elevate...</div>
             </div>
             <div className="footer__contact poppins text-[13px] leading-4 font-medium flex flex-col gap-1 text-center md:text-right">
             <div className="footer__contact poppins text-[13px] leading-4 font-medium flex flex-col gap-1 text-center md:text-right">
