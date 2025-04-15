@@ -6,11 +6,11 @@ import { TechnicalTeam } from '../../data/data';
 
 const Venue = () => {
     const venueData = [
-      { event: "Code Sprint", room: "Room 214" },
       { event: "Visual Upgrade", room: "Room 214" },
+      { event: "Iconic IQ", room: "Room 214" },
+      { event: "Code Sprint", room: "Room 319" },
       { event: "Clash of Minds", room: "Room 319" },
-      { event: "Brainstorm", room: "Room 319" },
-      { event: "Iconic IQ", room: "Room 323" },
+      { event: "Brainstorm", room: "Room 323" },
       { event: "The Future Foundry", room: "Room 323" },
     ];
   
