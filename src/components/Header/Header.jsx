@@ -140,6 +140,22 @@ function Header() {
                         </Link>
                       </div>
                     </li>
+                    <li>
+                      <div className="header_title">
+                        <Link to="/feedback" className="a-link" onClick={toggleOffcanvas}>
+                          <div className="menu-text">
+                            <span>F</span>
+                            <span>E</span>
+                            <span>E</span>
+                            <span>D</span>
+                            <span>B</span>
+                            <span>A</span>
+                            <span>C</span>
+                            <span>K</span>
+                          </div>
+                        </Link>
+                      </div>
+                    </li>
                   </ul>
                 </nav>
               </div>
